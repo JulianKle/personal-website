@@ -7,31 +7,51 @@ body {
 }
 
 header {
-  background-color: red;
+  background-color: white;
   color: black;
   text-align: center;
   padding: 10px 20px;
-  position: fixed; /* Header bleibt immer oben */
+  position: fixed;
   width: 100%;
   height: 70px;
   top: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
-  z-index: 1; /* Stelle sicher, dass der Header vor anderen Inhalten liegt */
+  z-index: 1;
+}
+
+.presentationHeader {
+  display: flex;
+  gap: 20px;
+}
+
+.presentationh3 {
+  font-weight: 100;
+  align-self: first baseline;
 }
 
 .h1Header {
-  align-self: center;
+  align-self: first baseline;
 }
 
 .navLinks {
   list-style: none;
-  padding: 0 10px;
+  padding: 5px 10px;
   text-decoration: none;
   color: black;
   display: inline;
-  align-self: center;
+  align-self: last baseline;
+  justify-content: right;
+}
+
+.navLinksAboutme {
+  list-style: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: blue;
+  display: inline;
+  align-self: last baseline;
   justify-content: right;
 }
 
@@ -43,8 +63,8 @@ main {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: white;
+  color: black;
   text-align: center;
   padding: 10px 0;
   display: flex;
