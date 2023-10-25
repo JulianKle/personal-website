@@ -1,0 +1,30 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: inherit;
+  text-decoration: none;
+}
+
+.pb {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* .cv {
+  display: flex;
+  gap: 2rem;
+}
+
+.cv1 {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.ausrichtung {
+  align-self: center;
+}
+/*
