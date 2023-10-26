@@ -23,7 +23,7 @@ main {
 
 .card_left {
   background-color: brown;
-  z-index: 2;
+  z-index: 1;
   width: 23vw;
   height: 30vw;
   float: right;
