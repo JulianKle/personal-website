@@ -1,5 +1,6 @@
 @import "/css/global.css";
 @import "/css/card.css";
+@import "/css/cardLeft.css";
 
 .mainSection {
   display: flex;
@@ -15,19 +16,10 @@ main {
 }
 
 .background_left {
-  background-color: beige;
+  background-color: #cd853f;
   position: relative;
   grid-column-start: 1;
   grid-column-end: 3;
-}
-
-.card_left {
-  background-color: brown;
-  z-index: 1;
-  width: 23vw;
-  height: 30vw;
-  float: right;
-  margin-top: 30%;
 }
 
 .background_right {
@@ -35,13 +27,4 @@ main {
   position: relative;
   grid-column-start: 5;
   grid-column-end: 3;
-}
-
-.card_right {
-  background-color: white;
-  z-index: 2;
-  width: 23vw;
-  height: 30vw;
-  float: left;
-  margin-top: 30%;
 }
