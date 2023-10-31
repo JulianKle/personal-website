@@ -15,28 +15,27 @@
 
 .cardMain {
   background-color: #a8651d;
+  padding-top: 10px;
+  gap: 20px;
+  text-align: center;
 }
 
 .nameProfilepicture {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
   padding-top: 10px;
-  gap: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .pb {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.h1CardLeft {
-  font-size: 3rem;
-}
-
+.h1CardLeft,
 .h2CardLeft {
   font-size: 3rem;
 }
@@ -51,6 +50,7 @@
 
 .navFooter {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;

@@ -10,6 +10,7 @@
 
 .cardRightContent {
   display: flex;
+  flex: 1;
   flex-direction: column;
   text-align: justify;
 }
@@ -18,21 +19,3 @@
   justify-self: center;
   align-self: center;
 }
-
-
-
-/* .cv {
-  display: flex;
-  gap: 2rem;
-}
-
-.cv1 {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-}
-
-.ausrichtung {
-  align-self: center;
-}
-/*
